@@ -8,20 +8,32 @@ body{
     justify-content: center;
     align-items: center;
 }
+.credit-card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 366px;
+    background-color: royalblue;
+    border-radius: 10px;
+}
 .credit-card.credit-card-front {
     display: flex;
     flex-direction: column;
+
+}
+.credit-card.credit-card-front .number{
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 366px;
-    background-color: blue;
-    border-radius: 10px;
-}
-.number {
     font-size: 36px;
 }
+.credit-card.credit-card-front .information-wrapper {
+    display: flex;
+    font-size: 40px;
+}
+.credit-card.credit-card-back {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
-.information-wrapper p {
-    
 }
