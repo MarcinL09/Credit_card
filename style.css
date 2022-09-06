@@ -3,3 +3,25 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credit-card.credit-card-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 366px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.number {
+    font-size: 36px;
+}
+
+.information-wrapper p {
+    
+}
