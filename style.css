@@ -23,6 +23,7 @@
 .credit-card.credit-card-front .information-wrapper {
     display: flex;
     justify-content: flex-start;
+    margin-top: 5px;
 }
 .credit-card.credit-card-front .information-wrapper p:nth-child(1) {
     width: 30px;
