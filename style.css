@@ -13,7 +13,7 @@
 /*front side of credit card */
 .credit-card.credit-card-front{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
     padding-left: 20px;
 }
@@ -35,8 +35,8 @@
     font-size: 22px;
 }
 .credit-card.credit-card-front .name {
-    justify-content: flex-end;
     font-size: 30px;
+    margin: 10px 0;
 }
 /*backside of credit card*/
 .credit-card.credit-card-back {
